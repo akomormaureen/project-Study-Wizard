@@ -1,4 +1,5 @@
 .header {
+  position: relative;
   background-size: contain;
   background-color: rgba(178, 162, 129, 0.4);
   position: absolute;
@@ -15,6 +16,32 @@
   left: 0px;
   top: -8px;
   opacity: 0.7;
+}
+
+/* logo properties */
+.logo {
+  position: absolute;
+  width: 70px;
+  height: 38px;
+  left: 430px;
+  top: 110px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 38px;
+  color: #000000;
+}
+#ellipse {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #c4c4c4;
+  width: 195px;
+  height: 187px;
+  left: 368px;
+  top: 50px;
+  padding: 100px;
+  text-align-last: center;
 }
 
 /*navigation bar*/
@@ -54,31 +81,6 @@
 
 .active {
   background-color: #666666;
-}
-/* logo properties */
-.logo {
-  position: absolute;
-  width: 70px;
-  height: 38px;
-  left: 430px;
-  top: 110px;
-  font-family: Mulish;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 30px;
-  line-height: 38px;
-  color: #000000;
-}
-#ellipse {
-  position: absolute;
-  border-radius: 50%;
-  background-color: #c4c4c4;
-  width: 195px;
-  height: 187px;
-  left: 368px;
-  top: 75px;
-  text-align: justify;
-  padding: 100px;
 }
 
 /* Vector */
@@ -167,7 +169,7 @@
 .customer {
   font-family: Mulish;
   font-style: normal;
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 70px;
   line-height: 88px;
   text-align: center;
@@ -192,6 +194,101 @@
   font-size: 25px;
   line-height: 31px;
   text-align: justify;
-
   color: #000000;
+}
+
+/* footer properties */
+.footer {
+  width: 1980px;
+  left: 0px;
+  top: 2206px;
+  background: #595656;
+  color: #000000;
+}
+
+.icons a {
+  color: #000000;
+  width: 70px;
+  height: 70.13px;
+  left: 1444px;
+  top: 2492.79px;
+}
+.copyright {
+  width: 1980px;
+  height: 92px;
+  left: 0px;
+  top: 2608px;
+  background: #333333;
+  color: #ffffff;
+  padding-top: 10px;
+  text-align: center;
+}
+
+/* login properties */
+.contain {
+  width: 1980px;
+  height: 1938px;
+  left: 0px;
+  top: 268px;
+}
+
+.scott {
+  width: 800px;
+  height: 1528px;
+  left: 50px;
+  top: 1px;
+  margin: 0;
+  padding: 0px;
+}
+
+.section {
+  width: 1900;
+  height: 1500px;
+  left: 100px;
+  top: 0px;
+  background: rgba(178, 162, 129, 0.5);
+  border: 1px solid #000000;
+  padding-left: 25px;
+}
+form {
+  font-family: Mulish;
+  font-size: 40px;
+}
+
+/* Full-width inputs */
+input[type="text"],
+input[type="password"] {
+  width: 75%;
+  padding: 12px 20px;
+  margin: 20px 0;
+  display: inline-block;
+  border: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  background-color: #e5e5e5;
+}
+input[type="checkbox"] {
+  width: 50px;
+  height: 30px;
+  cursor: pointer;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #333333;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+.get {
+  width: 100%;
+  padding: 15px 8px;
+  margin: 25px 0 12px 0;
 }
