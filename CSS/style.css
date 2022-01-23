@@ -203,16 +203,31 @@
   left: 0px;
   top: 2206px;
   background: #595656;
-  color: #000000;
+  color: #ffffff;
+  column: 100px 3;
+}
+
+.column a {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .icons a {
+  background-color: #ffffff;
   color: #000000;
   width: 70px;
   height: 70.13px;
   left: 1444px;
   top: 2492.79px;
 }
+
+input[type="submit"] {
+  background-color: #000000;
+  color: #ffffff;
+  align-items: center;
+  height: 100%;
+}
+
 .copyright {
   width: 1980px;
   height: 92px;
@@ -248,6 +263,7 @@
   top: 0px;
   background: rgba(178, 162, 129, 0.5);
   border: 1px solid #000000;
+  box-sizing: contain;
   padding-left: 25px;
 }
 form {
