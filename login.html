@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,14 +10,15 @@
     <link rel="stylesheet" href="./CSS/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
     <div class="contain" class="header">
         <div class="navbar-header">
             <a class="navbar-brand" href="#">Study Wizard</a>
         </div>
-        <img class="second-image" src="images/cesar-couto-TIvFLeqZ4ec-unsplash (1) 1.png" alt="Study-header">
-        <div class="logo" id="ellipse">Logo</div>
+        <img class="img-fluid" src="images/cesar-couto-TIvFLeqZ4ec-unsplash (1) 1.png" alt="Study-header" />
         <div class="navbar">
+            <div class="logo" id="ellipse">Logo</div>
             <nav>
                 <ul class="nav navbar-right nav-justify">
                     <li class="nav-item"><a class="active" class="navbar-link" href="#">Home</a></li>
@@ -29,36 +31,37 @@
 
         <div class="container">
             <div class="row">
-                <div class="column">
-                    <img class="scott"src="images/scott-graham-5fNmWej4tAA-unsplash 1.png" alt="about us image">
+                <div class="col-md-7 p-0 col-12 mb-3">
+                    <img class="scott img-fluid" src="images/scott-graham-5fNmWej4tAA-unsplash 1.png" alt="about us image">
                 </div>
-                <div class="column">
+                <div class="col-md-5 p-0 col-12">
                     <div class="section">
-                    <h1 class="study-bugger">Log in</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequatur dolorum cumque, nulla corporis soluta.</p>
-                    <form action="action_page.php" >
-                        <div class="login"> 
-                        <label for="uname">Username:</label><br>
-                        <input type="text" id="uname" name="uname" required><br>
-                        <label for="psw">Password</label><br>
-                        <input type="password" id="psw" name="psw" required><br>
-                        <span class="psw">Forgot <a href="#">Password?</a></span>
-                        </div>
-                            <div class="get">
-                            <button type="submit">Sign in</button><br>
-                            <label>
-                            <input type="checkbox" checked="checked" name="remember"> Keep me signed in</label><br>
-                            <span class="psw">Not a member yet?<a href="#"> Sign up? </a></span>
+                        <h1 class="study-bugger">Log in</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequatur dolorum cumque,
+                            nulla corporis soluta.</p>
+                        <form action="action_page.php">
+                            <div class="login">
+                                <label for="uname">Username:</label><br>
+                                <input type="text" id="uname" name="uname" required><br>
+                                <label for="psw">Password</label><br>
+                                <input type="password" id="psw" name="psw" required><br>
+                                <span class="psw">Forgot <a href="#">Password?</a></span>
                             </div>
-                    </form>
+                            <div class="get">
+                                <button type="submit">Sign in</button><br>
+                                <label>
+                                    <input type="checkbox" checked="checked" name="remember"> Keep me signed
+                                    in</label><br>
+                                <span class="psw">Not a member yet?<a href="#"> Sign up? </a></span>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
-            </div>
-        </div>
         </div>
         <div class="footer">
             <div class="row">
-                <div class="column">
+                <div class="col-md-4 col-12 mb-3">
                     <div>
                         <form action="action_page.-fluid">
                             <h1>Subscribe To Our Newsletter</h1>
@@ -75,8 +78,8 @@
                             </form>
                     </div>
                 </div>
-            
-                <div class="column">
+
+                <div class="col-md-4 col-12 mb-3">
                     <h1>Site Map</h1>
                     <ul>
                         <li><a href="#">Home</a></li>
@@ -85,7 +88,7 @@
                         <li><a href="#">Contact us</a></li>
                     </ul>
                 </div>
-                <div class="column">
+                <div class="col-md-4 col-12 mb-3">
                     <h1>Contact us</h1>
                     <span><i class="fa fa-fw fa-phone me-3"></i>+234812206744</span>
                     <br>
@@ -99,8 +102,11 @@
                 </div>
             </div>
             <div class="copyright">
-                <p><span><i class="fa fa-fw fa-copyright"></i></span> Copyright 2021 All Rights Reserved. Company Name</p>
+                <p><span><i class="fa fa-fw fa-copyright"></i></span> Copyright 2021 All Rights Reserved. Company Name
+                </p>
             </div>
         </div>
+    </div>
 </body>
+
 </html>

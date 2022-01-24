@@ -1,30 +1,17 @@
 .header {
-  position: relative;
   background-size: contain;
   background-color: rgba(178, 162, 129, 0.4);
-  position: absolute;
-  width: 1980px;
-  height: 592px;
-  left: 0px;
-  top: -8px;
+  width: 100%;
   background: #ffffff;
 }
 
 .first-image {
-  max-width: 1980px;
-  height: 592px;
-  left: 0px;
-  top: -8px;
+  /* max-width: 100%; */
   opacity: 0.7;
 }
 
 /* logo properties */
 .logo {
-  position: absolute;
-  width: 70px;
-  height: 38px;
-  left: 430px;
-  top: 110px;
   font-family: Mulish;
   font-style: normal;
   font-weight: 600;
@@ -33,14 +20,9 @@
   color: #000000;
 }
 #ellipse {
-  position: absolute;
   border-radius: 50%;
   background-color: #c4c4c4;
-  width: 195px;
-  height: 187px;
-  left: 368px;
-  top: 50px;
-  padding: 100px;
+  padding: 2.7rem 2rem;
   text-align-last: center;
 }
 
@@ -48,14 +30,16 @@
 
 .navbar {
   position: absolute;
-  width: 816px;
-  height: 75px;
-  left: 683px;
-  top: 92px;
-  background: #e5e5e5;
+  width: 100%;
+  top: 5vh;
   display: flex;
-  margin-right: 100px;
-  padding-right: px;
+  justify-content: space-between;
+  padding: 0 3rem;
+}
+
+nav{
+  padding: 2rem;
+  background: #e5e5e5;
 }
 
 /* Navbar links */
@@ -79,8 +63,9 @@
   color: #ffffff;
 }
 
-.active {
+.navbar a.active {
   background-color: #666666;
+  color: #ffffff;
 }
 
 /* Vector */
@@ -111,8 +96,8 @@
 .container {
   max-width: fit-content;
   height: fit-content;
-  left: 0px;
-  top: 584px;
+  /* left: 0px;
+  top: 584px; */
   background: rgba(178, 162, 129, 0.4);
 }
 
@@ -199,12 +184,9 @@
 
 /* footer properties */
 .footer {
-  width: 1980px;
-  left: 0px;
-  top: 2206px;
+  width: 100%;
   background: #595656;
   color: #ffffff;
-  column: 100px 3;
 }
 
 .column a {
@@ -229,10 +211,7 @@ input[type="submit"] {
 }
 
 .copyright {
-  width: 1980px;
-  height: 92px;
-  left: 0px;
-  top: 2608px;
+  width: 100%;
   background: #333333;
   color: #ffffff;
   padding-top: 10px;
@@ -241,8 +220,8 @@ input[type="submit"] {
 
 /* login properties */
 .contain {
-  width: 1980px;
-  height: 1938px;
+  width: 100%;
+  height: auto;
   left: 0px;
   top: 268px;
 }
