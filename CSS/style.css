@@ -373,11 +373,12 @@ button:hover {
   max-width: 100%;
   height: 100%;
   background: rgba(178, 162, 129, 0.5);
-  border: 1px solid #000000;
+  border: 1px solid #c4c4c4;
   box-sizing: contain;
   padding-left: 25px;
 }
 
+/* contact us page properties */
 input[type="fullname"],
 input[type="address"],
 input[type="number"] {
@@ -398,4 +399,13 @@ input[type="message"] {
   border: 1px solid #c4c4c4;
   box-sizing: border-box;
   background-color: #c4c4c4;
+}
+.info {
+  display: flexbox;
+  border: 5px solid rgba(37, 37, 37, 0.5);
+  box-sizing: border-box;
+  font-family: Mulish;
+  font-style: bold;
+  font-size: 40px;
+  color: #000000;
 }
