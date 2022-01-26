@@ -37,7 +37,7 @@
   padding: 0 3rem;
 }
 
-nav{
+nav {
   padding: 2rem;
   background: #e5e5e5;
 }
@@ -102,7 +102,7 @@ nav{
 }
 
 .study-bugger {
-  width: 347px;
+  width: 100%;
   /* height: 102.35px;
   left: 896px;
   top: 681.7px; */
@@ -137,7 +137,7 @@ nav{
   border-color: #595656;
 }
 .btn-primary:hover {
- background-color:#333333;
+  background-color: #333333;
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
@@ -199,8 +199,8 @@ nav{
 }
 
 .sitemap a:hover {
-  background-color:#333333;
- }
+  background-color: #333333;
+}
 
 .icons a {
   background-color: #ffffff;
@@ -212,7 +212,7 @@ nav{
 }
 
 input[type="submit"] {
-  background-color: #000000;
+  background-color: #444141;
   color: #ffffff;
   align-items: center;
   height: 100%;
@@ -246,9 +246,9 @@ input[type="submit"] {
 
 .section {
   width: 100%;
-  height: 100%; 
+  height: 100%;
   background: rgba(178, 162, 129, 0.5);
-  border: 1px solid  #000000;
+  border: 1px solid #000000;
   box-sizing: contain;
   padding-left: 25px;
 }
@@ -294,4 +294,108 @@ button:hover {
   width: 100%;
   padding: 15px 8px;
   margin: 25px 0 12px 0;
+}
+
+/*sign up page properties */
+
+.float-end {
+  offset-distance: 3rem;
+}
+
+.signup-button {
+  margin: 25px 0 12px 0;
+}
+
+#button-sign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+/* 
+.signup-icons {
+  position: absolute;
+  width: 439px;
+  height: 100.4px;
+  left: 394px;
+  top: 586.56px;
+} */
+
+/* Account page */
+
+.change a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 5rem;
+  margin-top: 10px;
+}
+
+.account {
+  width: 100%;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  color: #000000;
+  text-decoration: underline;
+  text-align: center;
+}
+.details {
+  font-family: Mulish;
+  font-style: normal;
+  font-size: 40px;
+  color: #000000;
+}
+
+.location {
+  margin-right: 0.9rem;
+  justify-content: space-between;
+}
+
+/* .float-start {
+  margin-right: 3rem;
+}
+.float-end {
+  margin-right: 5rem; 
+}*/
+
+.sectional {
+  width: 50%;
+  height: 100%;
+  background: rgba(178, 162, 129, 0.5);
+  /* border: 1px solid #000000; */
+  box-sizing: contain;
+  padding-left: 25px;
+}
+
+.section-account {
+  max-width: 100%;
+  height: 100%;
+  background: rgba(178, 162, 129, 0.5);
+  border: 1px solid #000000;
+  box-sizing: contain;
+  padding-left: 25px;
+}
+
+input[type="fullname"],
+input[type="address"],
+input[type="number"] {
+  width: 75%;
+  padding: 12px 20px;
+  margin: 20px 0;
+  display: inline-block;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  background-color: #c4c4c4;
+}
+
+input[type="message"] {
+  width: 75%;
+  padding: 50px 30px;
+  margin: 20px 0;
+  display: inline-block;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  background-color: #c4c4c4;
 }

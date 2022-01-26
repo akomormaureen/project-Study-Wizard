@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login page</title>
+    <title>Account Page</title>
     <link rel="stylesheet" href="./CSS/bootstrap.css" />
     <link rel="stylesheet" href="./CSS/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-
 <body>
     <div class="contain" class="header">
         <div class="navbar-header">
@@ -28,34 +26,53 @@
                 </ul>
             </nav>
         </div>
-        </div>
-    <main class="container-fluid">
-        <div class="container-fluid">
+    </div>
+
+<main class="container-fluid"> 
+    <div class="container-fluid"> 
             <div class="row">
                 <div class="col-md-7 p-0 col-12 mb-3">
-                    <img class="scott img-fluid" src="images/scott-graham-5fNmWej4tAA-unsplash 1.png" alt="about us image">
+                    <div class="sectional">
+                    <ul class="change">
+                        <li><a href="#">Change Password</a></li>
+                        <li><a href="#">Change Themes</a></li>
+                        <li><a href="#">Change Courses</a></li>
+                        <li><a href="#">Change Address</a></li>
+                        <li><a href="#">Logout</a></li>
+                    </ul>
+                    </div>
                 </div>
+
                 <div class="col-md-5 p-0 col-12">
-                    <div class="section">
-                        <h1 class="study-bugger">Log in</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequatur dolorum cumque,
-                            nulla corporis soluta.</p>
-                        <form action="action_page.php">
-                            <div class="login">
-                                <label for="uname">Username:</label><br>
-                                <input type="text" id="uname" name="uname" required><br>
-                                <label for="psw">Password</label><br>
-                                <input type="password" id="psw" name="psw" required><br>
-                                <span class="psw">Forgot <a href="#">Password?</a></span>
+                    <div class="section-account">
+                        <div class="row">
+                            <div class="column">
+                            <img class="img-fluid" src="images/Referral/aikomo-opeyemi-bGB257nb3_4-unsplash 1.png" alt="profile-picture">
                             </div>
-                            <div class="get">
-                                <button type="submit">Sign in</button><br>
-                                <label>
-                                    <input type="checkbox" checked="checked" name="remember"> Keep me signed
-                                    in</label><br>
-                                <span class="psw">Not a member yet?<a href="#"> Sign up? </a></span>
+
+                            <div class="column">
+                                <h1>Jane Hilary Doe</h1>
+                                <br>
+                                <br>
+                                <br>
+                                <button type="submit">Choose Image</button><br>
                             </div>
-                        </form>
+                        </div>
+                        <div>
+                            <h1 class="account">Account Information</h1>
+                            <ul class="details">
+                                <li>Id Number</li>
+                                <li>Gender </li>
+                                <li>Email address </li>
+                                <li>Major </li>
+                                <li>Interested courses </li>
+                                <li>interested Study Location</li>
+                            </ul>
+                            <div class="location">
+                            <button class="float-start" type="submit">Study Group</button>
+                            <button class="float-end" type="submit">Study Location</button><br>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -110,7 +127,6 @@
                 </p>
             </div>
         </div>
-    </main>    
+    </main>
 </body>
-
 </html>
