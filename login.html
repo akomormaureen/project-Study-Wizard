@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    <main class="container-fluid"></main>
     <div class="contain" class="header">
         <div class="navbar-header">
             <a class="navbar-brand" href="#">Study Wizard</a>
@@ -29,13 +30,13 @@
             </nav>
         </div>
         </div>
-    <main class="container-fluid">
+   
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-7 p-0 col-12 mb-3">
-                    <img class="scott img-fluid" src="images/scott-graham-5fNmWej4tAA-unsplash 1.png" alt="about us image">
+                <div class="col-md-4 col-12">
+                    <img class="img-fluid scott" src="images/scott-graham-5fNmWej4tAA-unsplash 1.png" alt="about us image">
                 </div>
-                <div class="col-md-5 p-0 col-12">
+                <div class="col-md-8 col-12">
                     <div class="section">
                         <h1 class="study-bugger">Log in</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequatur dolorum cumque,
@@ -46,14 +47,16 @@
                                 <input type="text" id="uname" name="uname" required><br>
                                 <label for="psw">Password</label><br>
                                 <input type="password" id="psw" name="psw" required><br>
-                                <span class="psw">Forgot <a href="#">Password?</a></span>
+                                <span class="psw">Forgot <a class="sign"  href="#">Password?</a></span>
                             </div>
                             <div class="get">
-                                <button type="submit">Sign in</button><br>
+                                <a type="button" class="btn btn-primary" href="#">Sign in</a><br>
                                 <label>
-                                    <input type="checkbox" checked="checked" name="remember"> Keep me signed
-                                    in</label><br>
-                                <span class="psw">Not a member yet?<a href="#"> Sign up? </a></span>
+                                    <input type="checkbox" checked="checked" name="remember"> Keep me signed in</label>
+                                    <br>
+                                    <br>
+                                    <br>
+                                <span class="psw">Not a member yet?<a class="sign" href="#"> Sign up</a></span>
                             </div>
                         </form>
                     </div>
@@ -63,16 +66,16 @@
 
         <div class="footer">
             <div class="row">
-                <div class="col-md-4 col-12 mb-3">
+                <div class="col-md-4 pt-2 col-12">
                     <form action="action_page.-fluid">
                         <div>
-                            <h1>Subscribe To Our Newsletter</h1>
+                            <h1 class="stay">Subscribe To Our Newsletter</h1>
                         </div>
                         <div>
                             <!-- <div class="container" style="background-color:white"></div> -->
                             <i class="fa fa-fw fa-envelope" style="color:white"></i>
-                            <input class="rounded" type="text" placeholder="Enter your email" name="mail" style="background-color:#C4C4C4"
-                                required>
+                            <input class="rounded" type="text" placeholder="Enter your email" name="mail"
+                                style="background-color:#C4C4C4; ;" required>
                             <br>
                             <label>
                                 <div>
@@ -82,8 +85,8 @@
                     </form>
                 </div>
         
-                <div class="col-md-4 col-12 mb-3">
-                    <h1>Site Map</h1>
+                <div class="col-md-4 pt-2 col-12 mr-3">
+                    <h1 class="stay">Site Map</h1>
                     <ul class="sitemap">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Login</a></li>
@@ -92,23 +95,26 @@
                     </ul>
                 </div>
         
-                <div class="col-md-4 col-12 mb-3">
-                    <h1>Contact us</h1>
-                    <span><i class="fa fa-fw fa-phone me-3"></i>+234812206744</span>
-                    <br>
-                    <span><i class="fa fa-fw fa-envelope me-3"></i>design@gmail.com</span>
+                <div class="col-md-4 pt-2  col-12">
+                    <h1 class="stay">Contact us</h1>
+                    <div>
+                        <span><i class="fa fa-fw fa-phone me-3"></i>+234812206744</span>
+                        <br>
+                        <span><i class="fa fa-fw fa-envelope me-3"></i>design@gmail.com</span>
+                        <br>
+                    </div>
                     <br>
                     <div class="icons">
-                        <a href="#"><i class="fa fa-fw fa-facebook me-2"></i></a>
-                        <a href="#"><i class="fa fa-google me-3"></i></a>
-                        <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-fw fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-google-plus "></i></a>
+                        <a style="border-radius: 12%;" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                     </div>
                 </div>
             </div>
-            <div class="copyright">
-                <p><span><i class="fa fa-fw fa-copyright"></i></span> Copyright 2021 All Rights Reserved. Company Name
-                </p>
-            </div>
+        </div>
+        <div class="copyright">
+            <p><span><i class="fa fa-fw fa-copyright"></i></span> Copyright 2021 All Rights Reserved. Company Name
+            </p>
         </div>
     </main>    
 </body>

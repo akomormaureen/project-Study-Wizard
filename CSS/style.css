@@ -1,18 +1,26 @@
 /* .main {
   float: left;
-  width: 60%; /* The width is 60%, by default 
+  width: 100%; /* The width is 60%, by default 
 } */
+/* @media screen and (max-width: 800px) {
+  .left,
+  .main,
+  .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller 
+  }
+} */
+
 * {
   font-family: Mulish;
 }
 h1 {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
 }
 
 .header {
   background-size: contain;
-  background-color: rgba(201, 186, 158, 0.4);
+  /* background-color: rgba(201, 186, 158, 0.4); */
   width: 100%;
   background: #ffffff;
 }
@@ -27,14 +35,14 @@ h1 {
   font-family: Mulish;
   font-style: normal;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 38px;
   color: #000000;
 }
 #ellipse {
   border-radius: 50%;
   background-color: #c4c4c4;
-  padding: 2.7rem 2rem;
+  padding: 2rem 2rem;
   text-align-last: center;
   margin-top: 0.9rem;
   margin-left: 10rem;
@@ -67,11 +75,10 @@ nav {
   margin: 12px;
   color: black;
   text-decoration: none;
-  font-size: normal;
   font-family: Mulish;
   font-style: normal;
-  font-weight: 600;
-  font-size: 30px;
+  font-weight: bolder;
+  font-size: 20px;
   line-height: 38px;
 }
 
@@ -84,6 +91,32 @@ nav {
   background-color: #666666;
   color: #ffffff;
 }
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) 
+@media screen and (max-width: 600px) {
+  .navbar a:not(:first-child) {
+    display: none;
+  }
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}*/
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) 
+@media screen and (max-width: 600px) {
+  .navbar.responsive {
+    position: relative;
+  }
+  .navbar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}*/
 
 /* Vector */
 
@@ -119,6 +152,13 @@ nav {
   font-size: x-small;
 }
 
+.image {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  width: 50%;
+  /* padding: 1rem 1rem; */
+}
+
 .study-bugger {
   width: 100%;
   /* height: 102.35px;
@@ -130,6 +170,8 @@ nav {
   font-size: 30px;
   line-height: 88px;
   color: #000000;
+  text-align: justify;
+  /* padding: 0.5rem 0.5rem; */
 }
 .study-bug p {
   align-content: justify;
@@ -144,6 +186,7 @@ nav {
 }
 .btn {
   font-size: xx-small;
+  margin: 0.5rem;
 }
 
 .btn-primary {
@@ -189,7 +232,7 @@ nav {
 
 .review {
   font-weight: normal;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 45px;
 }
 
@@ -213,12 +256,20 @@ nav {
   width: 100%;
   background: #595656;
   color: #ffffff;
+  font-size: x-small;
+  padding-left: 2rem;
+}
+
+.stay {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 0.5rem;
 }
 
 .sitemap a {
   color: #ffffff;
   text-decoration: none;
-  font-size: x-small;
+  font-size: xx-small;
 }
 
 .sitemap a:hover {
@@ -227,11 +278,17 @@ nav {
 
 .icons a {
   background-color: #ffffff;
-  color: #000000;
-  width: 70px;
+  color: #595656;
+  width: 100%;
   height: 70.13px;
-  left: 1opx;
-  top: 2492.79px;
+  /* top: 2492.79px; */
+  border-radius: 50%;
+  padding: 0.2rem 0.2rem;
+  text-align-last: center;
+  font-size: medium;
+  margin-top: rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 input[type="submit"] {
@@ -244,6 +301,10 @@ input[type="submit"] {
   padding-right: 1rem;
   padding-left: 1rem;
 }
+.rounded {
+  margin-left: 5rem;
+  border-color: white;
+}
 
 .copyright {
   width: 100%;
@@ -251,6 +312,7 @@ input[type="submit"] {
   color: #ffffff;
   padding-top: 10px;
   text-align: center;
+  font-size: xx-small;
 }
 
 /* login properties */
@@ -261,29 +323,29 @@ input[type="submit"] {
   top: 268px;
 }
 
-/* .scott {
-  width: 800px;
-  height: 1528px;
-  left: 50px;
-  top: 1px;
+.scott {
+  width: 75%;
+  /* height: 100%; */
+  /* left: 50px;
+  top: 1px; */
   margin: 0;
-  
+  margin-bottom: inherit;
   padding: 0px;
-} */
+}
 
 .section {
   width: 100%;
   height: 100%;
   background: rgba(178, 162, 129, 0.5);
   border: 1px solid #000000;
-  box-sizing: contain;
+  /* box-sizing: contain; */
   padding-left: 25px;
 }
 
 form {
   font-family: Mulish;
   font-weight: bold;
-  /* font-size: 40px; */
+  /* font-size: x-small; */
 }
 
 /* Full-width inputs */
@@ -296,10 +358,11 @@ input[type="password"] {
   border: 1px solid #e5e5e5;
   box-sizing: border-box;
   background-color: #e5e5e5;
+  text-decoration: none;
 }
 input[type="checkbox"] {
-  width: 50px;
-  height: 30px;
+  width: 30px;
+  height: 15px;
   cursor: pointer;
 }
 
@@ -322,6 +385,14 @@ button:hover {
   width: 100%;
   padding: 15px 8px;
   margin: 25px 0 12px 0;
+}
+
+.sign {
+  text-decoration: none;
+  color: #000000;
+}
+.sign:hover {
+  color: #000000;
 }
 
 /*sign up page properties */
@@ -415,6 +486,7 @@ input[type="number"] {
   margin: 20px 0;
   display: inline-block;
   border: 1px solid #c4c4c4;
+  /* border-style: round; */
   box-sizing: border-box;
   background-color: #c4c4c4;
 }
@@ -427,6 +499,7 @@ input[type="message"] {
   border: 1px solid #c4c4c4;
   box-sizing: border-box;
   background-color: #c4c4c4;
+  /* border-style: round; */
 }
 .info {
   display: flexbox;
